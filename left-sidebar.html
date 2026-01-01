@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<link rel="icon" type="image/png" href="images/favicon.png">
+<html>
+<head>
+    <title>Proyectos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <style>
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            padding: 20px;
+            width: 100%;
+        }
+        .video-item {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px; /* Opcional: bordes suaves */
+        }
+        .video-item iframe {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            border: 0;
+        }
+        @media (max-width: 980px) { /* Ajustado a los cortes comunes de plantillas */
+            .video-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body class="left-sidebar is-preload">
+    <a href="index.html" class="logo-esquina">
+    <img src="images/favicon.png" alt="Volver arriba" style="width: 100%;">
+</a>
+    <div id="page-wrapper">
+
+        <div id="header">
+            <div class="inner">
+                <header>
+                    <h1><a id="logo">Proyectos</a></h1>
+                </header>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>
+                        <a>Ciudades</a>
+                        <ul>
+                            <li><a href="https://www.semanasantahellin.es" target="_blank">Hellín</a></li>
+                            <li><a href="https://semanasantaelche.com" target="_blank">Elche</a></li>
+                            <li><a href="https://semanasanta-jumilla.es" target="_blank">Jumilla</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="left-sidebar.html">Proyectos</a></li>
+                    <li><a href="no-sidebar.html">Galería</a></li>
+                    <li><a href="contacto.html">Itinerarios</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="main" class="container">
+            
+            <div class="video-grid">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/wZxCQPvmHjA?si=nQ3Rr7OaMetlI-lC" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/3tyZWdcuEl0?si=hx1Y4ecFYjh4SnZy" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/n1yW7C29Fk8?si=tcMWGhuHD9YMhmYt" allowfullscreen></iframe>
+                </div>
+                 <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/3mIZeZUGy-0?si=tyqPpKiQ_TaD9mXy" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/Do0rmNtT6QI?si=rqxGQ0U5tw-32JAT" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/ojF4tnwR7uc?si=4mu6k9NV3ugrMnJT" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <hr />
+                <section class="contact">
+                    <header><h3>Redes Sociales :)</h3></header>
+                    <ul class="icons">
+                        <li><a href="#" class="icon brands fa-tiktok"><span class="label">TikTok</span></a></li>
+                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+                    </ul>
+                </section>
+                <div class="copyright">
+                    <ul class="menu">
+                        <li>&copy; Geo Cofrades. All rights reserved.</li>
+                        <li>Design: <a href="http://html5up.net">Pablo Díaz Carrión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
